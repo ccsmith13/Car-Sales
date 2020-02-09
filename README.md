@@ -22,22 +22,22 @@ In this project you will implement Redux to manage the state for this React appl
 
 This project was put together using create-react-app (CRA). You will not need to install CRA in order to make this project work. Follow the steps below to setup the project with the proper dependencies.
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your team lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] Download project dependencies by running one of these two commands `yarn` or `npm install`
-- [ ] Add the dependencies you will need to implement Redux. Also, add you may need to add `node-sass` as a dependency.
-- [ ] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Add your team lead as collaborator on Github.
+- [X] Clone your OWN version of the repository in your terminal
+- [X] Download project dependencies by running one of these two commands `yarn` or `npm install`
+- [X] Add the dependencies you will need to implement Redux. Also, add you may need to add `node-sass` as a dependency.
+- [X] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
       Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [X] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge Branch into master (student's Repository).
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete by merging the branch back into master.
-- [ ] Do your magic!
+- [X] Submit a Pull-Request to merge Branch into master (student's Repository).
+- [X] Add your team lead as a reviewer on the pull-request
+- [X] Your team lead will count the project as complete by merging the branch back into master.
+- [X] Do your magic!
 
 # _Project - Car Sales_
 
@@ -61,18 +61,18 @@ Follow these steps for completing your project.
 - As you work through setting up redux, you can do it however you'd like. This is the flow that works for me:
 
 ```text
-Set up "empty" reducer and initial state 👉 Set up store and Provider 👉
-Connect components 👉 Add events and event handlers in UI 👉 Build action creators 👉
+Set up "empty" reducer and initial state DONE 👉 Set up store and Provider DONE 👉
+Connect components DONE 👉 Add events and event handlers in UI 👉 Build action creators 👉
 write the reducer logic for the actions 👉 Rinse and repeat
 ```
 
 ## _MVP Requirements:_
 
-- Move the given state to the reducer as the initial state for the Redux store.
-- Set up the Redux flow
-- User should be able to add features to their car
-- User should be able to remove added features from their car
-- Total should update as user adds and removes features from their car
+- Move the given state to the reducer as the initial state for the Redux store. DONE 
+- Set up the Redux flow OK
+- User should be able to add features to their car DONE
+- User should be able to remove added features from their car DONE
+- Total should update as user adds and removes features from their car DONE 
 
 ## Stretch Problems
 
