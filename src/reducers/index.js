@@ -18,8 +18,6 @@ export const initialState = {
 
 export const carReducer = (state = initialState, action) => {
 
-    //console.log('state', state, 'action', action);
-
     switch (action.type) {
         case "REMOVE_FEATURE":
             let newCar = { ...state.car };
@@ -34,7 +32,6 @@ export const carReducer = (state = initialState, action) => {
             return stateCopy;
 
         case "BUY_ITEM":
-            //console.log(state.car);
             let newCar2 = { ...state.car };
             let newCarFeatures2 = [...newCar2.features];
             newCarFeatures2.push(state.additionalFeatures[action.payload]);

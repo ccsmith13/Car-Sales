@@ -4,7 +4,6 @@ import AddedFeature from './AddedFeature';
 import { connect } from "react-redux";
 
 const AddedFeatures = (props) => {
-  //console.log('props.car.features', props.car.features)
   return (
     <div className="content">
       <h6>Added features:</h6>
@@ -21,11 +20,9 @@ const AddedFeatures = (props) => {
   );
 };
 const mapStateToProps = state => {
-  // state === redux store
   return {};
 };
 
 export default connect(
   mapStateToProps
 )(AddedFeatures);
-//export default AddedFeatures;

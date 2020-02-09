@@ -12,12 +12,11 @@ const Header = (props) => {
     </>
   );
 };
+
 const mapStateToProps = state => {
-  // state === redux store
   return {};
 };
 
 export default connect(
   mapStateToProps
 )(Header);
-//export default Header;

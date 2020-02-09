@@ -10,11 +10,9 @@ const Total = (props) => {
 };
 
 const mapStateToProps = state => {
-  // state === redux store
   return {};
 };
 
 export default connect(
   mapStateToProps
 )(Total);
-//export default Total;
